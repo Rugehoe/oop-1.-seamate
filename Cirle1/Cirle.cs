@@ -7,7 +7,7 @@ for(int i = 0; i<3; i++)
 {
 
 	areal[i] = (float) Math.PI * rads[i] * rads[i];
-	Console.WriteLine("Areal is " + areal[i]);
+	Console.WriteLine("Areal of nr {0} " + areal[i],i+1f);
 
 }
 
